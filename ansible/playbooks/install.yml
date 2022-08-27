@@ -1,0 +1,5 @@
+- hosts: wp_app
+  become: yes
+
+  roles:
+    - role: wordpress
